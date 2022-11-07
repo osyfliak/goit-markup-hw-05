@@ -292,9 +292,6 @@ body{
     
 }
 
-img{
-    display: block;
-}
 .work .item:not(:last-child){
     margin-right: 30px;
 }
@@ -545,11 +542,26 @@ margin-bottom: 9px;
     font-size: 18px;
     line-height: 2;
     margin-top: 20px;
-    margin-bottom: 4px; 
-    
+    margin-bottom: 4px;    
 }
 
+.portfolio-downtitle-block{
+    position: relative;
+}
 
+.portfolio-downtitle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+    background-color: rgba(33, 150, 243, 0.9);
+     color: #FFFFFF;
+}
 .portfolio .text{
     color: var(--title-text-color);
 
