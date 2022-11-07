@@ -23,7 +23,7 @@
           <!-- Меню навігації -->
           <ul class="menu list">
             <li class="item"><a class="link current" href="./index.html">Студія</a></li>
-            <li class="item"><a class="link " href="./portfolio.html">Портфоліо</a></li>
+            <li class="item"><a class="link" href="./portfolio.html">Портфоліо</a></li>
             <li class="item"><a class="link" href="#contacts">Контакти</a></li>
           </ul>
         </nav>
@@ -54,7 +54,7 @@
       <section class="section hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-          <button class="button-order" type="button">Замовити послугу</button>
+          <button class="button-order" data-modal-open type="button">Замовити послугу</button>
         </div>
       </section>
 
@@ -356,8 +356,6 @@
             </li>
           </ul>
         </div>
-
-       
       </section>
 
       <!-- Постійні клієнти -->
@@ -404,13 +402,16 @@
           </ul>
         </div>
       </section>
-           <!-- </div>
-             <div class="modal">
-      <div class="modal-window">
-        <button class="close-button" type="button"></button>
-        <form action="#"></form>
+
+      <div class="modal is-hidden" data-modal>
+        <div class="modal-window">
+          <button class="close-button" data-modal-close type="button">
+            <svg class="icon icon-close" width="11" height="11">
+              <use xlink:href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
       </div>
-     </div> -->
     </main>
 
     <!-- Підвал -->
@@ -429,7 +430,13 @@
             <!-- Контакти -->
             <ul class="contact-footer list">
               <li class="item">
-                <a class="link" target="_blank" rel="noopener noreferrer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a
+                  class="link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
               </li>
               <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
@@ -476,5 +483,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
