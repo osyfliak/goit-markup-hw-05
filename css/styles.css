@@ -550,11 +550,13 @@ margin-bottom: 9px;
 }
 
 .portfolio-downtitle{
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
+    padding: 63px 24px;
     
     font-size: 18px;
     line-height: 1.56;
