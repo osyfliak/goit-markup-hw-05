@@ -14,6 +14,11 @@ body{
     letter-spacing: 0.03em;
 }
 
+*
+{
+    padding: 0;
+    margin: 0;
+}
 button{
     cursor: pointer;
 }
@@ -482,6 +487,7 @@ margin-bottom: 9px;
 }
 .social-title{
     color: #FFFFFF;
+    margin-bottom: 20px;
 
     font-weight: 700;
     font-size: 14px;
