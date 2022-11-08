@@ -678,11 +678,12 @@ margin-bottom: 9px;
                 0px 2px 1px rgba(0, 0, 0, 0.2);
     
 }
-
+/* Модальне вікно */
 .close-button{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
     
     width: 30px;
     height: 30px;
@@ -691,9 +692,6 @@ margin-bottom: 9px;
 
     margin-top: 8px;
     margin-right: 8px;
-
-
-
 }
 
 .is-hidden {
